@@ -1,10 +1,10 @@
 # git-study
 
-### 前提：安装git到本地
-生成公钥  命令  ###ssh-keygen###
+#### 前提：安装git到本地
+#### 1. 生成公钥  命令  `ssh-keygen`
 出现的提示，连续回车(连续回车，表示使用默认配置)：
 
-Generating public/private rsa key pair.
+`Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/lenovo/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
@@ -23,4 +23,10 @@ The key's randomart image is:
 | . o.            |
 |  .              |
 |                 |
-+----[SHA256]-----+
++----[SHA256]-----+`
+
+#### 2. 配置使用git仓库的人员姓名  
+`git config --global user.name "wiliam"`
+  
+#### 3. 配置使用git仓库的人员email  
+`git config --global user.email "williamcheng1988@gmail.com"`
